@@ -18,15 +18,12 @@ moved on to 26.x, so do not merge or pull from upstream master.
   (and Cloth Config / Mod Menu if wanted).
 - `.\gradlew runClient` starts a dev Minecraft client for quick testing.
 
-## Git (first-time setup still to do)
-- These files were copied in without git history, so there is no `.git` folder yet.
-- First session: run `git init -b 1.21.11`, `git add -A`, and commit as
+## Git (set up 2026-11-09)
+- Branch `1.21.11`, history starts fresh with the commit
   "Import SeedCrackerX 1.21.11 (upstream 19MisterX98/SeedcrackerX @ 4551964)".
+- `origin` is Dylan's fork https://github.com/dylanvod/SeedcrackerX; `1.21.11` tracks `origin/1.21.11`.
 - Upstream's `.github/workflows/build.yml` was left out; it is not needed to build locally.
 - Commit after each working change.
-- When Dylan has forked the repo on GitHub, add his fork as `origin`
-  (`git remote add origin https://github.com/<his-username>/SeedcrackerX`) and push the `1.21.11` branch
-  (`git push -u origin 1.21.11 --force` the first time, since this history starts fresh).
 
 ## Codex
 - Codex (background) has no internet: it can edit Java files but cannot run Gradle builds.
